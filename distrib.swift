@@ -1,4 +1,4 @@
-// Building the normal distribution from the set of non zero natural Integers N = {1, 2, 3 ...} & x_i ≠ 0
+// Building the normal distribution from the set of non zero natural integers N = {1, 2, 3 ...} & x_i ≠ 0
 
 var list = [Int](count: 17, repeatedValue: 0)
 
