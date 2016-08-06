@@ -1,0 +1,15 @@
+with(LinearAlgebra):
+
+a:=[[1, 2], [2, -3], [7, -2]]:
+row:=RowDimension(a):
+col:=ColumnDimension(a):
+n:=0:
+
+for i from 2 by 1 to row do
+    for j from 1 by 1 to col do
+        p:=a[i][j]-a[i-1][j]
+        p:=p*p+n:
+    end do:
+end do:
+
+print(n);
